@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tic_tac_toe from jquery</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+<!-- <h1>tic tac toc</h1>
+<div class="message">
+    <div class="trun">
+        <table>
+            <tr>
+                <td class="item1"></td>
+                <td class="item2"></td>
+                <td class="item3"></td>
+
+            </tr>
+            <tr>
+                <td class="item4"></td>
+                <td class="item5"></td>
+                <td class="item6"></td>
+
+            </tr> 
+            <tr>
+                <td class="item7"></td>
+                <td class="item8"></td>
+                <td class="item9"></td>
+
+            </tr>
+        </table><br>
+
+        <input type="button" name="reset" class="reset">
+
+    </div>
+
+</div> -->
+
+<div id="board" class="container text-center">
+  
+    <h1>Tic Tac Toe</h1>
+  
+    <div id="result">You are currently playing as X</div>
+    
+  <div class="row text-center">
+   
+ 
+    <div class="col-md-8">
+      <table id="tictac">
+        <tbody>
+          <tr>
+            <td id="cell0"></td>
+            <td id="cell1"></td>
+            <td id="cell2"></td>
+          </tr>
+          <tr>
+            <td id="cell3"></td>
+            <td id="cell4"></td>
+            <td id="cell5"></td>
+          </tr>
+          <tr>
+            <td id="cell6"></td>
+            <td id="cell7"></td>
+            <td id="cell8"></td>
+          </tr>
+        </tbody>
+       </table>
+    </div>
+    
+    
+    </div>
+    
+    <div class="mybutton text-center">
+      <button type="button" class="playerPick" value="X" id="x">X</button>
+      <button type="button" id="reset">Reset</button>
+      <button type="button" class="playerPick" id="o" value="O">O</button>
+    </div>
+   
+    
+   </div>
+  
+
+
+
+<script src="index.js"></script>
+
+
+</body>
+</html>
